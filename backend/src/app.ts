@@ -2,8 +2,8 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 
-import authRoutes from "./routes/auth.routes";
-import ticketRoutes from "./routes/ticket.routes";
+import authRoutes from "./routes/auth.routes.js";
+import ticketRoutes from "./routes/ticket.routes.js";
 
 dotenv.config();
 
