@@ -10,6 +10,7 @@ pnpm-lock.yaml
 .env.development.local
 .env.test.local
 .env.production.local
+*.env
 
 # Build outputs
 dist/
@@ -32,7 +33,6 @@ lerna-debug.log*
 *.swp
 *.swo
 *.swn
-.DS_Store
 *.sublime-project
 *.sublime-workspace
 
@@ -52,6 +52,8 @@ Thumbs.db
 .DS_Store
 .AppleDouble
 .LSOverride
+ehthumbs.db
+Desktop.ini
 
 # Temporary files
 *.tmp
@@ -69,3 +71,13 @@ out/
 # Misc
 .eslintcache
 .turbo
+
+# Vite
+.vite/
+vite.config.ts.timestamp-*
+
+# TypeScript
+*.tsbuildinfo
+
+# Git
+.gitignore.swp
